@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div id="logo">
+            <img src="LogoSpotify.png" alt="logo">
+        </div>
+
+        <ul>
+            <li><a>Home</a></li>
+            <li><a>Support</a></li>
+            <li><a>Download</a></li>
+            <li><a>Premium</a></li>
+            <li id="lineImage"><img src="line.png" alt="l"></li>
+            <li><a>Sign up</a></li>
+            <li><a>Log in</a></li>
+        </ul>
+    </nav>
+
+
+
+    <div id="container">
+        <div id="songList">
+            <h1>Music Player</h1>
+            <div class="songItem">
+                <img src="./item1.jfif" alt="1">
+                <span class="songNames">Be Alright</span>
+                <span class="songListPlay"><span>5:36</span> <i id="0" class="itemPlay far fa-play-circle"></i></span>
+            </div>
+
+            <div class="songItem">
+                <img src="./item1.jfif" alt="1">
+                <span class="songNames">Be Alright</span>
+                <span class="songListPlay"><span>5:36</span> <i id="1" class="itemPlay far fa-play-circle"></i></span>
+            </div>
+
+            <div class="songItem">
+                <img src="./item1.jfif" alt="1">
+                <span class="songNames">Be Alright</span>
+                <span class="songListPlay"><span>5:36</span> <i id="2" class="itemPlay far fa-play-circle"></i></span>
+            </div>
+
+            <div class="songItem">
+                <img src="./item1.jfif" alt="1">
+                <span class="songNames">Be Alright</span>
+                <span class="songListPlay"><span>5:36</span> <i id="3" class="itemPlay far fa-play-circle"></i></span>
+            </div>
+
+            <div class="songItem">
+                <img src="./item1.jfif" alt="1">
+                <span class="songNames">Be Alright</span>
+                <span class="songListPlay"><span>5:36</span> <i id="4" class="itemPlay far fa-play-circle"></i></span>
+            </div>
+
+            <div class="songItem">
+                <img src="./item1.jfif" alt="1">
+                <span>Be Alright</span>
+                <span class="songListPlay"><span>5:36</span> <i id="5" class="itemPlay far fa-play-circle"></i></span>
+            </div>
+        </div>
+        <div id="rightOfSongList"></div>
+    </div>
+    <div id="bottom">
+        <div id="rangeBar">
+            <input type="range" name="range" id="progressBar" min="0" value="0" max="100">
+            <div id="playicons">
+                <div id="gif">
+                    <div> <img src="g.webp" alt="gif"></div>
+                    <div>Be Alright by James</div>
+                </div>
+                <div id="iconSet">
+                    <i class="fas fa-3x fa-step-backward"></i>
+                    <i  class="itemPlay far fa-3x fa-play-circle" id="musicPlayerButton"></i>
+                    <i class="fas fa-3x fa-step-forward"></i>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/c990424407.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

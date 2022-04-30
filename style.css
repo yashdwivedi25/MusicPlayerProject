@@ -1,0 +1,173 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* navbar */
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    position: relative;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: center;
+    justify-content: right;
+   padding-right: 50px;
+}
+
+nav #logo{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+nav #logo img{
+    height: 50px;
+    width: 120px;
+}
+
+nav ul li{
+    padding: 20px;
+}
+
+nav ul a{
+    text-decoration: none;
+}
+
+#lineImage{
+    padding: 0px;
+}
+
+/* music player section */
+
+
+#bottom{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: black; 
+    height:200px;
+}
+
+#rangeBar{
+    margin-top: 10px;
+    display: flex;
+    height: 100px;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+#playicons{
+    margin-top: 10px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    width: 75%;  
+    justify-content: center;
+}
+
+
+
+
+
+
+#playicons i{
+    cursor: pointer;
+    align-self: center;
+}
+
+#bottom #rangeBar input{
+    width:75%;
+}
+
+#container{
+    display: flex;
+    color:white;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 10px auto;
+    background-image: url("./background.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#songList{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    width: 300px;
+}
+
+.songItem{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px;
+    background-color: black;
+    width: 260px;
+}
+
+.songItem span{
+    margin: 0px 10px;
+}
+
+
+
+.songItem img{
+    height: 50px;
+    width: 60px;
+    padding-right: 24px;
+}
+
+#gif{
+   
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    color: white;
+    width:300px;
+    opacity: 0;
+    transition: opacity 1s ease-in;
+    display: none;
+    
+}
+
+#gif div{
+    margin:5px 10px;
+}
+
+
+
+#gif img{
+    height: 70px;
+    width: 70px;
+}
+
+#rangeBar input{
+    cursor: pointer;
+}
+
+
+
